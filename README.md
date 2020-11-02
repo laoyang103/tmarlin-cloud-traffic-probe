@@ -12,6 +12,7 @@
   * [Performance Consumption](#performance-consumption)
   * [Free or Subscription?](#free-or-subscription)
   * [License](#license)
+  * [FAQ](#faq)
   * [Screenshot](#screenshot)
   * [Contact Us](#contact-us)
 ## Abstract
@@ -22,6 +23,7 @@ Why unify? Because too many security and O&M requirements require data from clou
 - Capture and analyze the network traffic of host in real time, and output about 40 indicators of traffic, packet, session and latency, and associate process information; analyze complete URL and SQL; all of the above are output by JSON;
 
 - Real-time forwarding of Raw Packets, and can be stored as PCAP by Tmarlin at the receiving end; in order to reduce bandwidth pressure, traffic can also be FIFO stored in the host, and PCAP can be retrieved or replayed to the receiving end only when needed.
+
 ![Tmarlin_functions](https://tmarlin.oss-us-east-1.aliyuncs.com/Tmarlin_function_github.png "Tmarlin_functions")
 ## Features
 - Pure C language program, ultra-small size, ultra-high performance, excellent compatibility, no third-party environment dependence; it can be used as cloud architecture basic software.
@@ -47,10 +49,10 @@ We are tcpiplabs.com, and we focus on cloud-network integrated traffic data gove
 
 ## Download
 - Source Code
-- Binary Program
+- [Binary Program](https://tmarlin.oss-us-east-1.aliyuncs.com/tmarlin "Binary Program")
+- [Command Line Help](https://tmarlin.oss-us-east-1.aliyuncs.com/tmarlin_command_help.pdf "Command Line Help")
 - User Guide
 - KPI/KQI List
-- FAQ
 
 ## Deployment
 
@@ -59,9 +61,11 @@ We are tcpiplabs.com, and we focus on cloud-network integrated traffic data gove
 ## Free or Subscription
 - Tmarlin's code and program are free for individual users, educational users and NGOs;
 - If you are a hard-working team like us, you can get all our products for free;
-- Commercial users need to purchase subscription fees before they can use them legally. 
+- Commercial users need to purchase subscription fees before they can use them legally.[Purchase link](https://www.tcpiplabs.com/productinfo/403743.html "Purchase link"). 
 
 ## License
+
+## FAQ
 
 
 ## Screenshot

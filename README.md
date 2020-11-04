@@ -8,12 +8,12 @@
   * [Application Scenarios](#application-scenarios)
   * [Opensource Roadmap](#opensource-roadmap)
   * [Download](#download)
-  * [Compiling Project
+  * [Compiling project
 ](#compiling-project
 )
   * [Deployment](#deployment)
   * [Performance Consumption](#performance-consumption)
-  * [Free or Subscription?](#free-or-subscription)
+  * [Free or Subscription](#free-or-subscription)
   * [License](#license)
   * [FAQ](#faq)
   * [Screenshot](#screenshot)
@@ -51,22 +51,22 @@ We are tcpiplabs.com, and we focus on cloud-network integrated traffic data gove
 - **Twhale Network Traffic Monitoring Platform**; ultra-high performance IDC traffic capture, analysis, NPMD, visual monitoring platform.
 
 ## Compiling Project
-- CentOS/RedHat/Suse  
-1. Install compilation tools:  
+1. CentOS/RedHat/Suse  
+- Install compilation tools:  
 `yum install gcc make`  
-2. Installation dependencies:   
+- Installation dependencies:   
 `yum install libpcap-devel`  
-3. Compile:  
+- Compile:  
 `cd tmarlin`  
 `./configure`  
 `make`  
 `make install`  
-- Ubuntu/Debian  
-1. Install compilation tools:   
+2. Ubuntu/Debian  
+- Install compilation tools:   
 `apt-get install gcc make`  
-2. Installation dependencies:   
+- Installation dependencies:   
 `apt-get install libpcap-dev`  
-3. Compile:  
+- Compile:  
 `cd tmarlin`  
 `./configure`  
 `make`  
@@ -79,6 +79,9 @@ We are tcpiplabs.com, and we focus on cloud-network integrated traffic data gove
 - KPI/KQI List
 
 ## Deployment
+- Deploy on the node server; pay special attention to that since a Tmarlin can only capture one NIC, in order to avoid capturing errors, please list all NICs first to determine whether the captured object has traffic passing;
+- When deployed in a virtual machine, just capture the working NIC;
+- If you want to capture Docker traffic, it is recommended to deploy on the Host OS of Docker. Otherwise, please package Tmarlin into Docker first.
 
 ## Performance Consumption
 
@@ -88,13 +91,12 @@ We are tcpiplabs.com, and we focus on cloud-network integrated traffic data gove
 - Commercial users need to purchase subscription fees before they can use them legally.[Purchase link](https://www.tcpiplabs.com/productinfo/403743.html "Purchase link"). 
 
 ## License
+- [GPL 3.0](https://github.com/tcpiplabs/tmarlin/blob/main/LICENSE "GPL 3.0")
 
 ## FAQ
 
-
 ## Screenshot
 ![Tmarlin_GIF](https://tmarlin.oss-us-east-1.aliyuncs.com/Tmarlin_GIF.gif "Tmarlin_GIF")
-
 
 ## Contact Us
 Any questions or needs, please contact email: service@tcpiplabs.com

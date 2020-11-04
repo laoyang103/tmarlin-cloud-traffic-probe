@@ -8,9 +8,8 @@
   * [Application Scenarios](#application-scenarios)
   * [Opensource Roadmap](#opensource-roadmap)
   * [Download](#download)
-  * [Compiling project
-](#compiling-project
-)
+  * [Command & Examples & KPI_KQI](#Command-&-Examples-&-KPI_KQI)
+  * [Compiling project](#compiling-project)
   * [Deployment](#deployment)
   * [Performance Consumption](#performance-consumption)
   * [Free or Subscription](#free-or-subscription)
@@ -74,9 +73,10 @@ We are tcpiplabs.com, and we focus on cloud-network integrated traffic data gove
 
 ## Download
 - [Binary Program](https://tmarlin.oss-us-east-1.aliyuncs.com/tmarlin "Binary Program")
-- [Command Line Help](https://tmarlin.oss-us-east-1.aliyuncs.com/tmarlin_command_help.pdf "Command Line Help")
 - User Guide
-- KPI/KQI List
+
+## Command & Examples & KPI_KQI
+[Command Line Help/Examples/KPI & KQI List](https://www.tcpiplabs.com/tmarlin_command_help "Command Line Help")
 
 ## Deployment
 - Deploy on the node server; pay special attention to that since a Tmarlin can only capture one NIC, in order to avoid capturing errors, please list all NICs first to determine whether the captured object has traffic passing;

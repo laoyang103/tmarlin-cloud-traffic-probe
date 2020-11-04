@@ -76,7 +76,7 @@ We are tcpiplabs.com, and we focus on cloud-network integrated traffic data gove
 - User Guide
 
 ## Command & Examples & KPI_KQI
-[Command Line Help/Examples/KPI & KQI List](https://www.tcpiplabs.com/tmarlin_command_help "Command Line Help")
+- [Command Line Help/Examples/KPI & KQI List](https://www.tcpiplabs.com/tmarlin_command_help "Command Line Help")
 
 ## Deployment
 - Deploy on the node server; pay special attention to that since a Tmarlin can only capture one NIC, in order to avoid capturing errors, please list all NICs first to determine whether the captured object has traffic passing;
@@ -94,6 +94,7 @@ We are tcpiplabs.com, and we focus on cloud-network integrated traffic data gove
 - [GPL 3.0](https://github.com/tcpiplabs/tmarlin/blob/main/LICENSE "GPL 3.0")
 
 ## FAQ
+- [FAQ](https://www.tcpiplabs.com/tmarlin_FAQ "FAQ")
 
 ## Screenshot
 ![Tmarlin_GIF](https://tmarlin.oss-us-east-1.aliyuncs.com/Tmarlin_GIF.gif "Tmarlin_GIF")

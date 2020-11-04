@@ -8,6 +8,9 @@
   * [Application Scenarios](#application-scenarios)
   * [Opensource Roadmap](#opensource-roadmap)
   * [Download](#download)
+  * [Compiling Project
+](#compiling-project
+)
   * [Deployment](#deployment)
   * [Performance Consumption](#performance-consumption)
   * [Free or Subscription?](#free-or-subscription)
@@ -47,8 +50,29 @@ We are tcpiplabs.com, and we focus on cloud-network integrated traffic data gove
 - **Tdolphin Cloud Traffic Visualization Platform**; It is used to collect, manage and visually monitor the data from Tmarlin.
 - **Twhale Network Traffic Monitoring Platform**; ultra-high performance IDC traffic capture, analysis, NPMD, visual monitoring platform.
 
+## Compiling Project
+- CentOS/RedHat/Suse  
+1. Install compilation tools:  
+`yum install gcc make`  
+2. Installation dependencies:   
+`yum install libpcap-devel`  
+3. Compile:  
+`cd tmarlin`  
+`./configure`  
+`make`  
+`make install`  
+- Ubuntu/Debian  
+1. Install compilation tools:   
+`apt-get install gcc make`  
+2. Installation dependencies:   
+`apt-get install libpcap-dev`  
+3. Compile:  
+`cd tmarlin`  
+`./configure`  
+`make`  
+`make install`  
+
 ## Download
-- Source Code
 - [Binary Program](https://tmarlin.oss-us-east-1.aliyuncs.com/tmarlin "Binary Program")
 - [Command Line Help](https://tmarlin.oss-us-east-1.aliyuncs.com/tmarlin_command_help.pdf "Command Line Help")
 - User Guide
@@ -60,7 +84,7 @@ We are tcpiplabs.com, and we focus on cloud-network integrated traffic data gove
 
 ## Free or Subscription
 - Tmarlin's code and program are free for individual users, educational users and NGOs;
-- If you are a hard-working team like us, you can get all our products for free;
+- If you are a hard-working startup like us, you can get all our products for free;
 - Commercial users need to purchase subscription fees before they can use them legally.[Purchase link](https://www.tcpiplabs.com/productinfo/403743.html "Purchase link"). 
 
 ## License

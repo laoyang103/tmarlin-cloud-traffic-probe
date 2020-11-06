@@ -40,7 +40,7 @@ Based on Tmarlin's JSON and PCAP, combined with analysis tools such as ES, a ver
 - Cloud traffic visualization monitoring and abnormal traffic analysis;
 - Micro-segmentation; Threat awareness;
 - Cloud web security and audit (by HTTP/URL), Cloud DB security and audit (by SQL); 
-- Cloud NPMD Troubleshooting(Network Performance Monitoring and Diagnostics);
+- Cloud Troubleshooting, NPMD (Network Performance Monitoring and Diagnostics);
 - Combined with Xplico, Wireshark, Cuckoo sandbox, it can achieve more fine-grained security check.
 
 ## Opensource Roadmap
